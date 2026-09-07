@@ -1,0 +1,64 @@
+generated: '2026-09-06'
+method: probed
+source: >-
+  Live DNS/TLS probes of every registrable domain Acutus Medical, Inc. owns (acutus.com and
+  acutusmedical.com) on 2026-09-06. No apis.yml Website/Portal host and no OpenAPI servers[] host
+  exist to probe, because the company no longer publishes a web surface — both zones are delegated
+  to Cloudflare nameservers and serve mail records only.
+note: >-
+  Neither apex resolves to an address: acutus.com answers NOERROR with zero A records and
+  www.acutusmedical.com answers NXDOMAIN, so no TLS handshake is possible and HSTS cannot be
+  observed. The zones are not empty — both still carry Microsoft 365 MX records
+  (acutus-com.mail.protection.outlook.com / acutusmedical-com.mail.protection.outlook.com), a
+  secondary MX at vor.acutusmedical.com, and a hard-fail SPF record, so corporate email continues
+  to route while the public web presence has been withdrawn. Neither domain publishes DNSSEC, CAA
+  or a DMARC record; SPF without DMARC leaves the mail posture unenforced.
+hosts:
+- host: acutus.com
+  https: false
+  https_error: no A record (DNS NOERROR, zero answers) — no TCP/443 endpoint to handshake
+  tls_version: null
+  cert_expires: null
+  hsts: null
+  hsts_max_age: null
+- host: www.acutusmedical.com
+  https: false
+  https_error: NXDOMAIN
+  tls_version: null
+  cert_expires: null
+  hsts: null
+  hsts_max_age: null
+- host: acutusmedical.com
+  https: false
+  https_error: no A record (DNS NOERROR, zero answers) — no TCP/443 endpoint to handshake
+  tls_version: null
+  cert_expires: null
+  hsts: null
+  hsts_max_age: null
+- host: ir.acutusmedical.com
+  https: false
+  https_error: NXDOMAIN — the investor-relations host named in the company's own press releases
+    no longer resolves
+  tls_version: null
+  cert_expires: null
+  hsts: null
+  hsts_max_age: null
+domains:
+- domain: acutus.com
+  dnssec: false
+  caa: []
+  spf: true
+  spf_record: v=spf1 include:spf.protection.outlook.com include:spf.sendinblue.com include:_spf.salesforce.com
+    ip4:160.72.29.227 ip4:161.38.194.251 -all
+  dmarc: false
+  dmarc_policy: null
+  mx: true
+- domain: acutusmedical.com
+  dnssec: false
+  caa: []
+  spf: true
+  spf_record: v=spf1 include:spf.protection.outlook.com include:sharepointonline.com include:spf.sendinblue.com
+    ip4:160.72.29.227 -all
+  dmarc: false
+  dmarc_policy: null
+  mx: true

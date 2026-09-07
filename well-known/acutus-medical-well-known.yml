@@ -1,0 +1,133 @@
+generated: '2026-09-06'
+method: probed
+source: >-
+  Live unauthenticated GET of the named /.well-known/ path list against every host Acutus Medical,
+  Inc. is known to have operated — the apex and www of both acutus.com and acutusmedical.com, plus
+  ir.acutusmedical.com, the investor-relations host the company's own press releases link to. No
+  host answered: there is no API baseURL, no OpenAPI servers[] host and no docs or console host in
+  the record, and every candidate host fails to resolve. Recorded as an absence — no WellKnown and
+  no SecurityTxt pointer is wired in apis.yml, because nothing here is served.
+note: >-
+  Status 0 is a connection-level failure, not an HTTP response. acutus.com and acutusmedical.com
+  answer NOERROR with zero A records; www.acutus.com, www.acutusmedical.com and ir.acutusmedical.com
+  answer NXDOMAIN. Both zones remain delegated to Cloudflare nameservers and still carry Microsoft
+  365 MX and SPF records, so the domains are registered and mail still routes — only the web
+  presence has been withdrawn. Certificate Transparency for acutusmedical.com holds a wildcard and
+  the apex and no api./docs./developer. hostname has ever been certified, so no additional host was
+  left unprobed. This is a withdrawn surface, not a blocked probe.
+hosts:
+- host: acutus.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 0
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 0
+    file: null
+  - path: /.well-known/api-catalog
+    status: 0
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 0
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 0
+    file: null
+  - path: /.well-known/agent.json
+    status: 0
+    file: null
+- host: www.acutus.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 0
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 0
+    file: null
+  - path: /.well-known/api-catalog
+    status: 0
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 0
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 0
+    file: null
+  - path: /.well-known/agent.json
+    status: 0
+    file: null
+- host: acutusmedical.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 0
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 0
+    file: null
+  - path: /.well-known/api-catalog
+    status: 0
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 0
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 0
+    file: null
+  - path: /.well-known/agent.json
+    status: 0
+    file: null
+- host: www.acutusmedical.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 0
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 0
+    file: null
+  - path: /.well-known/api-catalog
+    status: 0
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 0
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 0
+    file: null
+  - path: /.well-known/agent.json
+    status: 0
+    file: null
+- host: ir.acutusmedical.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 0
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 0
+    file: null
+  - path: /.well-known/api-catalog
+    status: 0
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 0
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 0
+    file: null
+  - path: /.well-known/agent.json
+    status: 0
+    file: null
