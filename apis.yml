@@ -1,5 +1,5 @@
 aid: acutus-medical
-name: Acutus Medical, Inc.
+name: Acutus Medical
 description: >-
   Acutus Medical, Inc. is a Carlsbad, California arrhythmia-management medical device company
   (SEC CIK 0001522860, SIC 3841 Surgical & Medical Instruments) that built the AcQMap non-contact
@@ -92,3 +92,4 @@ x-coverage:
   - url: https://www.linkedin.com/company/acutus-medical-inc-
     status: 200
   checked: '2026-09-06'
+x-legal-name: Acutus Medical, Inc.
