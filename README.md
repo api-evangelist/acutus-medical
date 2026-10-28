@@ -64,5 +64,38 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Acutus Medical is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/acutus-medical_stock/
+Acutus Medical, Inc. is a Carlsbad, California arrhythmia-management medical device company (SEC CIK 0001522860, SIC 3841 Surgical & Medical Instruments) that built the AcQMap non-contact ultrasound-based cardiac imaging and mapping system, the AcQBlate FORCE sensing ablation catheter, and the AcQCross and AcQGuide left-heart access family for electrophysiologists treating complex cardiac arrhythmias. The company sold its left-heart access portfolio to Medtronic beginning in 2022, restructured in November 2023 to solely manufacture and distribute that portfolio for Medtronic, and in December 2024 announced an operational downsizing that exited the electrophysiology mapping and ablation business and cut roughly 70% of its workforce. Its common stock was suspended and delisted from Nasdaq in May 2024, and it filed a Form 15-15D on 24 January 2025 to suspend its reporting obligations and go dark. Acutus was a device manufacturer rather than a software or platform business and never operated a developer program or published an API; as of September 2026 its entire public web presence — acutus.com, acutusmedical.com and the ir.acutusmedical.com investor site its own press releases link to — no longer resolves in DNS, leaving no host on which a contract could be published.
+
+**Areas:** Company · Medical Devices · Healthcare · Cardiology · Electrophysiology · Cardiac Ablation · Cardiac Mapping · Contract Manufacturing
+
+## Acutus Medical on APIs.io
+
+Everything profiled for Acutus Medical is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/acutus-medical/](https://apis.io/providers/acutus-medical/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Acutus Medical Domain Security](https://apis.io/security/acutus-medical/acutus-medical-domain-security/)
+
+## API Evangelist rating
+
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
+
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Acutus Medical: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/acutus-medical/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
